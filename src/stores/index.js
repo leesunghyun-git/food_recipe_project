@@ -1,6 +1,7 @@
 import { createStore } from "vuex";
 import foods from "./food"
-import recipe from "./recipe"
+import recipes from "./recipe"
+import boards from "./board";
 export default createStore({
-    modules:{foods,recipe}
+    modules:{foods,boards,recipes}
 })
